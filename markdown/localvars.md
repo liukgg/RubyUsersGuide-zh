@@ -63,7 +63,7 @@ ruby> loop{bar=45; puts bar; break}; defined?(bar)
 
 Procedure objects that live in the same scope share whatever local variables also belong to that scope. Here, the local variable bar is shared by main and the procedure objects p1 and p2:
 
-在相同范围内的过程对象共享也属于该范围的任何本地变量。此处，本地变量`bar`被`main`以及过程对象`p1`、`p2`所共享。
+在相同范围内的过程对象共享也属于该范围的任何局部变量。此处，局部变量`bar`被`main`以及过程对象`p1`、`p2`所共享。
 
 ```
 ruby> bar=nil
